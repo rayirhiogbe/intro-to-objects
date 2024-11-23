@@ -8,9 +8,13 @@
 
 <body>
     <p id="demo"></p>
+    <p id="abs"></p>
     <script>
         var person = {FirstName:"Ray",age:20};
         document.getElementById("demo").innerHTML = "My Name Is" + " " + person.FirstName +"." + "My Age Is" + " " + person.age
+
+        var number = Math.abs(-3231)
+        document.getElementById("abs").innerHTML = number
     </script>
 </body>
 </html>
